@@ -235,17 +235,20 @@
 					3EF53CB31E4D997B0029CEBB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3U6FXC8M2N;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					3EF53CCC1E4D997B0029CEBB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3U6FXC8M2N;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3EF53CB31E4D997B0029CEBB;
 					};
 					3EF53CD71E4D997B0029CEBB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3U6FXC8M2N;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3EF53CB31E4D997B0029CEBB;
 					};
@@ -507,6 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdxer.AppUpdateTipDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -521,6 +525,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdxer.AppUpdateTipDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -533,6 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdxer.AppUpdateTipDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppUpdateTipDemo.app/AppUpdateTipDemo";
 			};
 			name = Debug;
@@ -546,6 +552,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdxer.AppUpdateTipDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppUpdateTipDemo.app/AppUpdateTipDemo";
 			};
 			name = Release;
@@ -558,6 +565,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdxer.AppUpdateTipDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = AppUpdateTipDemo;
 			};
 			name = Debug;
@@ -570,6 +578,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rdxer.AppUpdateTipDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = AppUpdateTipDemo;
 			};
 			name = Release;

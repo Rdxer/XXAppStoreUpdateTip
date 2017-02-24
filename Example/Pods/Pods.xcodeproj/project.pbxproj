@@ -39,25 +39,25 @@
 		2B50BF0AB3591F33AD101231213B0B76 /* XXAppStoreUpdateTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXAppStoreUpdateTip-prefix.pch"; sourceTree = "<group>"; };
 		34D0B2BAEEC9E23F8306BC18421385B8 /* Pods-AppUpdateTipDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppUpdateTipDemo-frameworks.sh"; sourceTree = "<group>"; };
 		39A2E32EDCA7332344537D54D08EC6B9 /* XXAppStoreInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXAppStoreInfo.h; sourceTree = "<group>"; };
-		4C5DBCB99F46B327770A21C3E88698C8 /* Pods-AppUpdateTipDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AppUpdateTipDemo.modulemap"; sourceTree = "<group>"; };
+		4C5DBCB99F46B327770A21C3E88698C8 /* Pods-AppUpdateTipDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AppUpdateTipDemo.modulemap"; sourceTree = "<group>"; };
 		4ED4B64DCA89908051829A8D7F9C5DB7 /* XXAppStoreUpdateTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXAppStoreUpdateTip.xcconfig; sourceTree = "<group>"; };
 		5953099BB246478BA93B466626F79963 /* Pods-AppUpdateTipDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppUpdateTipDemo-resources.sh"; sourceTree = "<group>"; };
 		68E64598279BB7AC122759D8D8970250 /* Pods-AppUpdateTipDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppUpdateTipDemo-umbrella.h"; sourceTree = "<group>"; };
 		707DD7348AB0EDC74BBA0BE3A8CC05B3 /* XXAppStoreUpdateTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXAppStoreUpdateTip-umbrella.h"; sourceTree = "<group>"; };
 		779D879E224ECA7BC56A8C13BBEE0112 /* Pods-AppUpdateTipDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppUpdateTipDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7B58E1453F57A9771AC5C5C0F4B6425A /* XXAppStoreInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXAppStoreInfo.m; sourceTree = "<group>"; };
-		8AEFC49994AD6B420FDE79791A6295CA /* Pods_AppUpdateTipDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppUpdateTipDemo.framework; path = "Pods-AppUpdateTipDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8AEFC49994AD6B420FDE79791A6295CA /* Pods_AppUpdateTipDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppUpdateTipDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C2240515C5AB3AD49276F2EC191510C /* XXAppStoreUpdateTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXAppStoreUpdateTip-dummy.m"; sourceTree = "<group>"; };
 		9C2DCB976CA0567A4D5BACBD046C261E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1B0503EBD64FDC5910D4067307680EE /* Pods-AppUpdateTipDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppUpdateTipDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2F3439C7E8FBCE061FE1F9AE50909A3 /* XXUpdateTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXUpdateTip.m; sourceTree = "<group>"; };
 		ED570A470688F49B1CC6EDFC0BB49C01 /* NSString+XXVersionCompare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XXVersionCompare.h"; sourceTree = "<group>"; };
-		F511825CC216AFE32E242D588D07E15D /* XXAppStoreUpdateTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XXAppStoreUpdateTip.modulemap; sourceTree = "<group>"; };
+		F511825CC216AFE32E242D588D07E15D /* XXAppStoreUpdateTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XXAppStoreUpdateTip.modulemap; sourceTree = "<group>"; };
 		F5CF5EAB7041D8C8F1E5EC5223B3ADCC /* XXUpdateTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXUpdateTip.h; sourceTree = "<group>"; };
 		FB479864F5DF6DAC756BAEEFC33FFC41 /* NSString+XXVersionCompare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXVersionCompare.m"; sourceTree = "<group>"; };
-		FEC3B9B85467F896A9889034F9E3BE9B /* XXAppStoreUpdateTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XXAppStoreUpdateTip.framework; path = XXAppStoreUpdateTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC3B9B85467F896A9889034F9E3BE9B /* XXAppStoreUpdateTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XXAppStoreUpdateTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,6 @@
 			children = (
 				44BC5E35A0AE4D524E185688B4D90A7F /* Classes */,
 			);
-			name = XXAppStoreUpdateTip;
 			path = XXAppStoreUpdateTip;
 			sourceTree = "<group>";
 		};
@@ -116,7 +115,6 @@
 				F5CF5EAB7041D8C8F1E5EC5223B3ADCC /* XXUpdateTip.h */,
 				D2F3439C7E8FBCE061FE1F9AE50909A3 /* XXUpdateTip.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -265,6 +263,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					015BE3A49C2EA4F14C8248CE51EA433B = {
+						LastSwiftMigration = 0820;
+					};
+					6830944D37A2AF6AE13CCC40C813024A = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -385,6 +391,7 @@
 				PRODUCT_NAME = XXAppStoreUpdateTip;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -416,6 +423,7 @@
 				PRODUCT_NAME = XXAppStoreUpdateTip;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -491,6 +499,7 @@
 				PRODUCT_NAME = Pods_AppUpdateTipDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -526,6 +535,7 @@
 				PRODUCT_NAME = Pods_AppUpdateTipDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
