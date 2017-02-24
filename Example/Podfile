@@ -1,11 +1,6 @@
 use_frameworks!
 
-target 'XXAppStoreUpdateTip_Example' do
+target 'AppUpdateTipDemo' do
   pod 'XXAppStoreUpdateTip', :path => '../'
 
-  target 'XXAppStoreUpdateTip_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

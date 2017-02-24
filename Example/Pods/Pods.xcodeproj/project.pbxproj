@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10204F34301C95B55196B2D27301876C /* XXUpdateTip.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CF5EAB7041D8C8F1E5EC5223B3ADCC /* XXUpdateTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F5F0B03A653140E58E329DD580EF02 /* NSString+XXVersionCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = FB479864F5DF6DAC756BAEEFC33FFC41 /* NSString+XXVersionCompare.m */; };
+		3BF091888113176A014CA83B7EF3BF71 /* Pods-AppUpdateTipDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E64598279BB7AC122759D8D8970250 /* Pods-AppUpdateTipDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B133FE10BAEB1AC5412DCE145C484E9 /* Pods-AppUpdateTipDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD21D9A6E8D5B43B6B8FA9733689A6 /* Pods-AppUpdateTipDemo-dummy.m */; };
+		563A27A2183311A20D112F45F282DC95 /* XXAppStoreUpdateTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2240515C5AB3AD49276F2EC191510C /* XXAppStoreUpdateTip-dummy.m */; };
+		5B1666400491C8BAD47F29A943012910 /* XXAppStoreInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A2E32EDCA7332344537D54D08EC6B9 /* XXAppStoreInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CAE088529D5F6339122917FC905FD18 /* XXUpdateTip.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F3439C7E8FBCE061FE1F9AE50909A3 /* XXUpdateTip.m */; };
+		B3D6B2648C96A88EBD46C748DED92035 /* NSString+XXVersionCompare.h in Headers */ = {isa = PBXBuildFile; fileRef = ED570A470688F49B1CC6EDFC0BB49C01 /* NSString+XXVersionCompare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBFB02F33D9AAFE30FF23AD442F2038A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BC87ED41BD48E4E1FF645D8C8CCA2839 /* XXAppStoreUpdateTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 707DD7348AB0EDC74BBA0BE3A8CC05B3 /* XXAppStoreUpdateTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA185877C48F6BF5612D5CF82E7F6282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D31217194F6A4CA7D262C458A1BCE2A6 /* XXAppStoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B58E1453F57A9771AC5C5C0F4B6425A /* XXAppStoreInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36B0A29C18F0378BC57ACA5B08CAFC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6830944D37A2AF6AE13CCC40C813024A;
+			remoteInfo = XXAppStoreUpdateTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AD21D9A6E8D5B43B6B8FA9733689A6 /* Pods-AppUpdateTipDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppUpdateTipDemo-dummy.m"; sourceTree = "<group>"; };
+		013D3B262B01BF4C3DBB6DAEADFF513B /* Pods-AppUpdateTipDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppUpdateTipDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		141C9A0893DC3774D01547370FA9F22C /* Pods-AppUpdateTipDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppUpdateTipDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1844F30E89DF8CD1951C462EE8F3C448 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B50BF0AB3591F33AD101231213B0B76 /* XXAppStoreUpdateTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXAppStoreUpdateTip-prefix.pch"; sourceTree = "<group>"; };
+		34D0B2BAEEC9E23F8306BC18421385B8 /* Pods-AppUpdateTipDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppUpdateTipDemo-frameworks.sh"; sourceTree = "<group>"; };
+		39A2E32EDCA7332344537D54D08EC6B9 /* XXAppStoreInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXAppStoreInfo.h; sourceTree = "<group>"; };
+		4C5DBCB99F46B327770A21C3E88698C8 /* Pods-AppUpdateTipDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AppUpdateTipDemo.modulemap"; sourceTree = "<group>"; };
+		4ED4B64DCA89908051829A8D7F9C5DB7 /* XXAppStoreUpdateTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXAppStoreUpdateTip.xcconfig; sourceTree = "<group>"; };
+		5953099BB246478BA93B466626F79963 /* Pods-AppUpdateTipDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppUpdateTipDemo-resources.sh"; sourceTree = "<group>"; };
+		68E64598279BB7AC122759D8D8970250 /* Pods-AppUpdateTipDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppUpdateTipDemo-umbrella.h"; sourceTree = "<group>"; };
+		707DD7348AB0EDC74BBA0BE3A8CC05B3 /* XXAppStoreUpdateTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXAppStoreUpdateTip-umbrella.h"; sourceTree = "<group>"; };
+		779D879E224ECA7BC56A8C13BBEE0112 /* Pods-AppUpdateTipDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppUpdateTipDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7B58E1453F57A9771AC5C5C0F4B6425A /* XXAppStoreInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXAppStoreInfo.m; sourceTree = "<group>"; };
+		8AEFC49994AD6B420FDE79791A6295CA /* Pods_AppUpdateTipDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppUpdateTipDemo.framework; path = "Pods-AppUpdateTipDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2240515C5AB3AD49276F2EC191510C /* XXAppStoreUpdateTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXAppStoreUpdateTip-dummy.m"; sourceTree = "<group>"; };
+		9C2DCB976CA0567A4D5BACBD046C261E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B0503EBD64FDC5910D4067307680EE /* Pods-AppUpdateTipDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppUpdateTipDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2F3439C7E8FBCE061FE1F9AE50909A3 /* XXUpdateTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXUpdateTip.m; sourceTree = "<group>"; };
+		ED570A470688F49B1CC6EDFC0BB49C01 /* NSString+XXVersionCompare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XXVersionCompare.h"; sourceTree = "<group>"; };
+		F511825CC216AFE32E242D588D07E15D /* XXAppStoreUpdateTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XXAppStoreUpdateTip.modulemap; sourceTree = "<group>"; };
+		F5CF5EAB7041D8C8F1E5EC5223B3ADCC /* XXUpdateTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXUpdateTip.h; sourceTree = "<group>"; };
+		FB479864F5DF6DAC756BAEEFC33FFC41 /* NSString+XXVersionCompare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXVersionCompare.m"; sourceTree = "<group>"; };
+		FEC3B9B85467F896A9889034F9E3BE9B /* XXAppStoreUpdateTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XXAppStoreUpdateTip.framework; path = XXAppStoreUpdateTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561CE5CE4AEFC55041884275871CFBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFB02F33D9AAFE30FF23AD442F2038A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A12956E80879B18AE4E832C7C69E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA185877C48F6BF5612D5CF82E7F6282 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070ADDD39259858E350B64F5F06F2367 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				470C1FA990227FF96821B476FA5ABCAC /* Pods-AppUpdateTipDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		124BCEEB7DDB4F969D3386B0AC0206FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEFC49994AD6B420FDE79791A6295CA /* Pods_AppUpdateTipDemo.framework */,
+				FEC3B9B85467F896A9889034F9E3BE9B /* XXAppStoreUpdateTip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7BECBA332E2909E9C8BA947139D379 /* XXAppStoreUpdateTip */ = {
+			isa = PBXGroup;
+			children = (
+				44BC5E35A0AE4D524E185688B4D90A7F /* Classes */,
+			);
+			name = XXAppStoreUpdateTip;
+			path = XXAppStoreUpdateTip;
+			sourceTree = "<group>";
+		};
+		44BC5E35A0AE4D524E185688B4D90A7F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED570A470688F49B1CC6EDFC0BB49C01 /* NSString+XXVersionCompare.h */,
+				FB479864F5DF6DAC756BAEEFC33FFC41 /* NSString+XXVersionCompare.m */,
+				39A2E32EDCA7332344537D54D08EC6B9 /* XXAppStoreInfo.h */,
+				7B58E1453F57A9771AC5C5C0F4B6425A /* XXAppStoreInfo.m */,
+				F5CF5EAB7041D8C8F1E5EC5223B3ADCC /* XXUpdateTip.h */,
+				D2F3439C7E8FBCE061FE1F9AE50909A3 /* XXUpdateTip.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		470C1FA990227FF96821B476FA5ABCAC /* Pods-AppUpdateTipDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9C2DCB976CA0567A4D5BACBD046C261E /* Info.plist */,
+				4C5DBCB99F46B327770A21C3E88698C8 /* Pods-AppUpdateTipDemo.modulemap */,
+				013D3B262B01BF4C3DBB6DAEADFF513B /* Pods-AppUpdateTipDemo-acknowledgements.markdown */,
+				B1B0503EBD64FDC5910D4067307680EE /* Pods-AppUpdateTipDemo-acknowledgements.plist */,
+				00AD21D9A6E8D5B43B6B8FA9733689A6 /* Pods-AppUpdateTipDemo-dummy.m */,
+				34D0B2BAEEC9E23F8306BC18421385B8 /* Pods-AppUpdateTipDemo-frameworks.sh */,
+				5953099BB246478BA93B466626F79963 /* Pods-AppUpdateTipDemo-resources.sh */,
+				68E64598279BB7AC122759D8D8970250 /* Pods-AppUpdateTipDemo-umbrella.h */,
+				141C9A0893DC3774D01547370FA9F22C /* Pods-AppUpdateTipDemo.debug.xcconfig */,
+				779D879E224ECA7BC56A8C13BBEE0112 /* Pods-AppUpdateTipDemo.release.xcconfig */,
+			);
+			name = "Pods-AppUpdateTipDemo";
+			path = "Target Support Files/Pods-AppUpdateTipDemo";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77D22B33368B4F1705A34298195011F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1844F30E89DF8CD1951C462EE8F3C448 /* Info.plist */,
+				F511825CC216AFE32E242D588D07E15D /* XXAppStoreUpdateTip.modulemap */,
+				4ED4B64DCA89908051829A8D7F9C5DB7 /* XXAppStoreUpdateTip.xcconfig */,
+				9C2240515C5AB3AD49276F2EC191510C /* XXAppStoreUpdateTip-dummy.m */,
+				2B50BF0AB3591F33AD101231213B0B76 /* XXAppStoreUpdateTip-prefix.pch */,
+				707DD7348AB0EDC74BBA0BE3A8CC05B3 /* XXAppStoreUpdateTip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XXAppStoreUpdateTip";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8DEDA3237BF7CE4A1C54A05674FF7217 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				124BCEEB7DDB4F969D3386B0AC0206FC /* Products */,
+				070ADDD39259858E350B64F5F06F2367 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DEDA3237BF7CE4A1C54A05674FF7217 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B903E905122C19D0A37B17477EFAAAC3 /* XXAppStoreUpdateTip */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B903E905122C19D0A37B17477EFAAAC3 /* XXAppStoreUpdateTip */ = {
+			isa = PBXGroup;
+			children = (
+				77D22B33368B4F1705A34298195011F7 /* Support Files */,
+				2C7BECBA332E2909E9C8BA947139D379 /* XXAppStoreUpdateTip */,
+			);
+			name = XXAppStoreUpdateTip;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C1CA3790BCB32FCAE8D3ED81EB553D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D6B2648C96A88EBD46C748DED92035 /* NSString+XXVersionCompare.h in Headers */,
+				5B1666400491C8BAD47F29A943012910 /* XXAppStoreInfo.h in Headers */,
+				BC87ED41BD48E4E1FF645D8C8CCA2839 /* XXAppStoreUpdateTip-umbrella.h in Headers */,
+				10204F34301C95B55196B2D27301876C /* XXUpdateTip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF925FB158EEDF2E42CBED591E6C1627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF091888113176A014CA83B7EF3BF71 /* Pods-AppUpdateTipDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		015BE3A49C2EA4F14C8248CE51EA433B /* Pods-AppUpdateTipDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943D1DA5CEFD7991A93CC4B0F03D7432 /* Build configuration list for PBXNativeTarget "Pods-AppUpdateTipDemo" */;
+			buildPhases = (
+				EB12FDC19C84B23100947A9C864D4B85 /* Sources */,
+				561CE5CE4AEFC55041884275871CFBB8 /* Frameworks */,
+				DF925FB158EEDF2E42CBED591E6C1627 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF40475ECF2F7032AC17888C8A44974 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppUpdateTipDemo";
+			productName = "Pods-AppUpdateTipDemo";
+			productReference = 8AEFC49994AD6B420FDE79791A6295CA /* Pods_AppUpdateTipDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6830944D37A2AF6AE13CCC40C813024A /* XXAppStoreUpdateTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E17EC37E6E6CB8792995A48FF13323 /* Build configuration list for PBXNativeTarget "XXAppStoreUpdateTip" */;
+			buildPhases = (
+				E570EFE0AB68634AB6631E7974DC9EC9 /* Sources */,
+				76A12956E80879B18AE4E832C7C69E2B /* Frameworks */,
+				0C1CA3790BCB32FCAE8D3ED81EB553D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXAppStoreUpdateTip;
+			productName = XXAppStoreUpdateTip;
+			productReference = FEC3B9B85467F896A9889034F9E3BE9B /* XXAppStoreUpdateTip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 124BCEEB7DDB4F969D3386B0AC0206FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015BE3A49C2EA4F14C8248CE51EA433B /* Pods-AppUpdateTipDemo */,
+				6830944D37A2AF6AE13CCC40C813024A /* XXAppStoreUpdateTip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E570EFE0AB68634AB6631E7974DC9EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F5F0B03A653140E58E329DD580EF02 /* NSString+XXVersionCompare.m in Sources */,
+				D31217194F6A4CA7D262C458A1BCE2A6 /* XXAppStoreInfo.m in Sources */,
+				563A27A2183311A20D112F45F282DC95 /* XXAppStoreUpdateTip-dummy.m in Sources */,
+				8CAE088529D5F6339122917FC905FD18 /* XXUpdateTip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB12FDC19C84B23100947A9C864D4B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B133FE10BAEB1AC5412DCE145C484E9 /* Pods-AppUpdateTipDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BF40475ECF2F7032AC17888C8A44974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXAppStoreUpdateTip;
+			target = 6830944D37A2AF6AE13CCC40C813024A /* XXAppStoreUpdateTip */;
+			targetProxy = 36B0A29C18F0378BC57ACA5B08CAFC22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92F8582894A7BA3BA118DA877D4166B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED4B64DCA89908051829A8D7F9C5DB7 /* XXAppStoreUpdateTip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXAppStoreUpdateTip/XXAppStoreUpdateTip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXAppStoreUpdateTip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXAppStoreUpdateTip/XXAppStoreUpdateTip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XXAppStoreUpdateTip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D9C140A8914CC54F739BA99EFA66148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED4B64DCA89908051829A8D7F9C5DB7 /* XXAppStoreUpdateTip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXAppStoreUpdateTip/XXAppStoreUpdateTip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXAppStoreUpdateTip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXAppStoreUpdateTip/XXAppStoreUpdateTip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XXAppStoreUpdateTip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60C429A480551539C48B7B4A530C4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141C9A0893DC3774D01547370FA9F22C /* Pods-AppUpdateTipDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AppUpdateTipDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppUpdateTipDemo/Pods-AppUpdateTipDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AppUpdateTipDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6716DDF5FDD635EE67D0B63293A7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779D879E224ECA7BC56A8C13BBEE0112 /* Pods-AppUpdateTipDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AppUpdateTipDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppUpdateTipDemo/Pods-AppUpdateTipDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AppUpdateTipDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943D1DA5CEFD7991A93CC4B0F03D7432 /* Build configuration list for PBXNativeTarget "Pods-AppUpdateTipDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60C429A480551539C48B7B4A530C4FF /* Debug */,
+				E6716DDF5FDD635EE67D0B63293A7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E17EC37E6E6CB8792995A48FF13323 /* Build configuration list for PBXNativeTarget "XXAppStoreUpdateTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9C140A8914CC54F739BA99EFA66148 /* Debug */,
+				92F8582894A7BA3BA118DA877D4166B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_AppUpdateTipDemo {
+  umbrella header "Pods-AppUpdateTipDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

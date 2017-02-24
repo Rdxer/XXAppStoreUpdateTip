@@ -1,0 +1,6 @@
+framework module XXAppStoreUpdateTip {
+  umbrella header "XXAppStoreUpdateTip-umbrella.h"
+
+  export *
+  module * { export * }
+}

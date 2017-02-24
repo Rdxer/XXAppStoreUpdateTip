@@ -1,0 +1,16 @@
+PODS:
+  - XXAppStoreUpdateTip (0.1.0)
+
+DEPENDENCIES:
+  - XXAppStoreUpdateTip (from `../`)
+
+EXTERNAL SOURCES:
+  XXAppStoreUpdateTip:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XXAppStoreUpdateTip: 5e8576ee5b73e0af55c5bf8307b42da4016ce920
+
+PODFILE CHECKSUM: 48be9ae4ba2fe208ec48bb9ccc3d12d2fec14991
+
+COCOAPODS: 1.2.0.beta.3
