@@ -25,7 +25,7 @@
             return ;
         }
         
-        NSString *res = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+//        NSString *res = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
         id jsonObj = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
         if (error) {
             NSLog(@"%@",error);

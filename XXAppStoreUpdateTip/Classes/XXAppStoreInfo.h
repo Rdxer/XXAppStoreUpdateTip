@@ -21,7 +21,7 @@
 @property (nonatomic, copy) NSString *artworkUrl60;
 @property (nonatomic, copy) NSArray *supportedDevices;
 @property (nonatomic, copy) NSString *trackViewUrl;
-@property (nonatomic, copy) NSString *description;
+@property (nonatomic, copy) NSString *_app_description;
 @property (nonatomic, copy) NSString *version;
 @property (nonatomic, copy) NSString *bundleId;
 @property (nonatomic, copy) NSString *artistViewUrl;
